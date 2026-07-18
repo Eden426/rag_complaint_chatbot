@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.venv/
+venv/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+vector_store/*
+!vector_store/.gitkeep
+*.log
+.streamlit/secrets.toml
+
